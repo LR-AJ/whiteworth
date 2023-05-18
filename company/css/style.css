@@ -302,12 +302,12 @@ display: block;
     top: 1px;
   }
   
-
+  @media (min-width: 550px) {
 .page-header {
     background: linear-gradient(rgba(98, 74, 79, 0.5), rgba(72, 80, 62, 0.6)), url(../img/building_img.jpg) center center no-repeat;
     background-size: cover;
 }
-
+  }
 .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
